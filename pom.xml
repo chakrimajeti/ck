@@ -24,4 +24,16 @@
       </resource>
     </resources>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>Releases</name>
+      <url>http://localhost:8081/repository/maven_release/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus</id>
+      <name>Snapshot</name>
+      <url>http://localhost:8081/repository/maven_snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
