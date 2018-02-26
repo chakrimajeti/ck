@@ -18,11 +18,11 @@ pipeline {
 
         stage ('Build') {
             steps {
-                    bat 'cd spring-boot-samples/spring-boot-sample-atmosphere & mvn clean package'
+                    bat 'cd ck/atm & mvn clean package'
             }
              post {
                 success {
-                    junit 'spring-boot-samples/spring-boot-sample-atmosphere/target/surefire-reports/*.xml'
+                    junit 'ck/atm/target/surefire-reports/*.xml'
                         }
                  }
                
