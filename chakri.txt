@@ -1,3 +1,7 @@
 hi this is ck
 
+<<<<<<< HEAD
 hi
+=======
+hello
+>>>>>>> bhanu
